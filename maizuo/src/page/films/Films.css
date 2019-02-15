@@ -1,0 +1,36 @@
+#films{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50px;
+	left:0;
+	bottom: 0;
+	background: #EBEBEB;
+}
+.tabNav{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #FE6E00;
+}
+.tabNav a{
+	color: #333;
+	height: 50px;
+	flex-basis: 50%;
+	position: relative;
+}
+.tabNav a.active{
+	color: #FE6E00;
+}
+.tabNav a.active::after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #FE6E00;
+	border-bottom: 2px solid #fe6e00;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

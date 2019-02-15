@@ -1,0 +1,13 @@
+html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,div,p,span,em,dt,dd,dl,tr,td,table,fieldset{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}

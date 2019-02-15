@@ -1,0 +1,87 @@
+#home{
+	width: 100%;
+	background: #ebebeb;
+}
+.announcement{
+	width: 100%;
+	height: 225px;
+}
+.now_playing{
+	width: 100%;
+	padding-top: 17px;
+}
+.swiper-slide img{
+	width: 100%;
+}
+.more-button {
+    width: 160px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    margin: 10px auto 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #616161;
+    cursor: pointer;
+}
+
+/* 展示影片 */
+.films_item{
+	margin: 0 17px 17px 17px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    -moz-box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    cursor: pointer;
+}
+.films_item a img{
+	width: 100%;
+}
+.films_title{
+	width: 100%;
+	display: flex;
+	height: 50px;
+}
+.title{
+	flex-basis: 70%;
+	text-align: left;
+    padding-right: 0;
+    padding-top: 13px;
+    padding-left: 28px;
+}
+.title h5{
+	font-size: 12px;
+	color: #333;
+}
+.title p{
+	line-height: 15px;
+	font-size: 8px;
+	color: #C4C4C4;
+}
+.score{
+	flex-basis: 30%;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #f78360;
+}
+.coming_line{
+	position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a8a8a8;
+}
+.coming_line>span{
+    width: 65px;
+    height: 20px;
+	display: block;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: #eee;
+    background-color: #a7a7a7;
+}

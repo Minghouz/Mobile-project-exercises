@@ -1,0 +1,48 @@
+#card{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50px;
+	left:0;
+	bottom: 0;
+	background: #fcfcfc;
+}
+.tabnav{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	overflow: hidden;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #FE6E00;
+}
+.tabnav a{
+	color: #333;
+	height: 50px;
+	flex-basis: 50%;
+	position: relative;
+}
+.tabnav a:after{
+	content: '';
+	width: 100%;
+	height:0px;
+	background: transparent;
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	transition: .4s all;
+}
+.tabnav a.active{
+	color: #FE6E00;
+	
+}
+.tabnav a.active::after{
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: #FE6E00;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+}

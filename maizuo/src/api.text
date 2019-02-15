@@ -1,0 +1,21 @@
+//公告接口
+[1](https://m.maizuo.com/v4/api/billboard/home?__t=1530186516861)
+//返回值：
+{
+	"status":0,
+	"data":{
+		"billboards":[{"id":711,"name":"新卖座卡公告",
+		"url":"https://m.maizuo.com/act/active/1282  ",
+		"imageUrl":"https://pic.maizuo.com/h5PicUpload/062a965ab71db31fe0b7ad6f8c529935.jpg",
+		"weight":1}]
+		},
+	"msg":"ok"
+}
+//热映电影
+[2](https://m.maizuo.com/v4/api/film/now-playing?__t=1530186516872&page=1&count=5)
+
+//即将上映
+[3](https://m.maizuo.com/v4/api/film/coming-soon?__t=1530186516878&page=1&count=3)
+
+//正在热映页面数据
+[4](https://m.maizuo.com/v4/api/film/now-playing?page=1&count=7)

@@ -1,0 +1,49 @@
+#electCard{
+	width: 100%;
+	height: 100%;
+}
+.tel,.code{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.inputBoder{
+	display: block;
+	position: absolute;
+    top: 20px;
+    height: 12px;
+    width: 100%;
+    border: solid #c4c4c4;
+    border-width: 0 1px 1px 1px;
+}
+.tel{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.tel input,.code input{
+	border: 0;
+	width: 80%;
+	height: 30px;
+	background: #fcfcfc;
+}
+.tel input:focus,.code input:focus{
+	outline: none;
+	border: 0;
+}
+.login{
+	width: 163px;
+    background-color: #fe8233;
+    color: #fff;
+    border: none;
+    border-radius: 36px;
+    margin-top: 45px;
+    padding: 8px 12px;
+    font-size: 15px;
+    outline: none;
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inputName{
+	margin-right: 20px;
+}

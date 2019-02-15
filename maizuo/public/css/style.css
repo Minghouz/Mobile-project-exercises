@@ -1,0 +1,8 @@
+.slideInRight, .slideOutRight{
+	animation-duration: 800ms;
+}
+@keyframes bottomMove{
+	100%{
+		bottom: 0;
+	}
+}
